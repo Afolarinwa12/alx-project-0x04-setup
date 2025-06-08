@@ -31,7 +31,7 @@ alx-project-0x03/ ├── components/ │ ├── common/ │ │ └── 
 
 ⚙️ Installation & Setup
 Clone the repository:
-git clone https://github.com/Sahe20/alx-project-0x03-setup.git
+git clone https://github.com/Afolarinwa12/alx-project-0x03-setup.git
 cd alx-project-0x03
 npm install npm run dev Open your browser and visit http://localhost:3000
 
