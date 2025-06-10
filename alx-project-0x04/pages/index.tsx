@@ -11,7 +11,8 @@ export default function Home() {
   }
 
   return (
-     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-center">
+    <>
+      <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-center">
       {/* Welcome Message */}
  <h1> Welcome to Splash App </h1>
       <p className="text-lg text-gray-600 mb-8">
@@ -25,5 +26,7 @@ export default function Home() {
         <Button action={() => routeToNextPage({ pageRoute: '/counter-app'})} buttonLabel="Contact us" buttonBackgroundColor="orange" />
       </div>
     </div>
+    </>
+   
   );
 }
